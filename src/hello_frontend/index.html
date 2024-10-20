@@ -1,16 +1,246 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Gallery</h1>
+</header>
+
+<div class="gallery">
+    <img src="./images/image1.jpg" alt="Description of Image 1">
+    <img src="./images/image2.jpeg" alt="Description of Image 2">
+    <img src="./images/image3.jpg" alt="Description of Image 3">
+</div>
+
+<footer>
+    <p>&copy; 2024 My Gallery. All rights reserved.</p>
+</footer>
+
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 10px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.2s;
+        }
+        .gallery-item:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .title {
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+        }
+        .description {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Gallery</h1>
+</header>
+
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="./images/image1.jpg" alt="Description of Image 1">
+        <div class="title">Vibrant Peacock</div>
+        <div class="description">Never</div>
+    </div>
+    <div class="gallery-item">
+        <img src="./images/image2.jpeg" alt="Description of Image 2">
+        <div class="title">Paris Sunset</div>
+        <div class="description">going to</div>
+    </div>
+    <div class="gallery-item">
+        <img src="./images/image3.jpg" alt="Description of Image 3">
+        <div class="title">Autumn</div>
+        <div class="description">you up</div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Gallery. All rights reserved.</p>
+</footer>
+
+</body>
+</html> -->
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IC Hello Starter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-item {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.2s;
+        }
+        .gallery-item:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .title {
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+        }
+        .description {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.js"></script>
-</body>
 
+<header>
+    <h1>My Gallery</h1>
+</header>
+
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="./images/image1.jpg" alt="Description of Image 1">
+        <div class="title">Vibrant Peacock</div>
+        <div class="description">Never going</div>
+    </div>
+    <div class="gallery-item">
+        <img src="./images/image2.jpeg" alt="Description of Image 2">
+        <div class="title">Paris Sunset</div>
+        <div class="description">to give</div>
+    </div>
+    <div class="gallery-item">
+        <img src="./images/image3.jpg" alt="Description of Image 3">
+        <div class="title">Autumn</div>
+        <div class="description">you up.</div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 My Gallery. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
+
